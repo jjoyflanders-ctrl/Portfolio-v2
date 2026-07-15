@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" fill="none">
+<defs>
+  <linearGradient id="bg" x1="108" y1="104" x2="1044" y2="1102" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#061120"/>
+    <stop offset="0.58" stop-color="#17355D"/>
+    <stop offset="1" stop-color="#8FD0FF"/>
+  </linearGradient>
+  <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(780 252) rotate(126.183) scale(564.137)">
+    <stop stop-color="#FFFFFF" stop-opacity="0.7"/>
+    <stop offset="0.45" stop-color="#B7DFFF" stop-opacity="0.32"/>
+    <stop offset="1" stop-color="#B7DFFF" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="blur" x="0" y="0" width="1200" height="1200" filterUnits="userSpaceOnUse">
+    <feGaussianBlur stdDeviation="48"/>
+  </filter>
+</defs>
+<rect width="1200" height="1200" rx="120" fill="url(#bg)"/>
+<g filter="url(#blur)" opacity="0.75">
+  <circle cx="822" cy="274" r="156" fill="url(#halo)"/>
+  <circle cx="316" cy="908" r="120" fill="#B7DFFF" fill-opacity="0.22"/>
+</g>
+<rect x="186" y="236" width="822" height="702" rx="46" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)" stroke-width="3"/>
+<path d="M262 756C392 628 528 566 670 566C780 566 892 605 1000 683" stroke="#EAF7FF" stroke-opacity="0.46" stroke-width="14" stroke-linecap="round"/>
+<path d="M254 810C365 728 481 688 604 688C714 688 832 723 948 790" stroke="#D4EEFF" stroke-opacity="0.34" stroke-width="10" stroke-linecap="round" stroke-dasharray="8 16"/>
+<circle cx="538" cy="494" r="9" fill="#F4FBFF"/>
+<circle cx="645" cy="454" r="7" fill="#F4FBFF" fill-opacity="0.84"/>
+<circle cx="734" cy="512" r="6" fill="#F4FBFF" fill-opacity="0.8"/>
+<circle cx="426" cy="544" r="6" fill="#F4FBFF" fill-opacity="0.72"/>
+<circle cx="792" cy="418" r="4" fill="#F4FBFF" fill-opacity="0.68"/>
+<text x="96" y="154" fill="#CDE6FA" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" letter-spacing="6">NIGHT INTERFACE</text>
+<text x="90" y="886" fill="#F6FBFF" font-family="Arial, Helvetica, sans-serif" font-size="138" font-weight="900" letter-spacing="-4">BLUE</text>
+<text x="90" y="1002" fill="#F6FBFF" font-family="Arial, Helvetica, sans-serif" font-size="138" font-weight="900" letter-spacing="-4">LIGHT</text>
+<text x="96" y="1094" fill="#10233A" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800" letter-spacing="4">PIXEL THEORY</text>
+</svg>
